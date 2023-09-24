@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    background-color: #C8DCFA;
+}
+
+#button {
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 10px;
+}
+
+#game {
+    width: 450px;
+    height: 450px;
+    margin: 30px auto;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+#board {
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+#score {
+    background-color: #019FEB;
+    width: 210px;
+    height: 100px;
+    margin: 25px auto;
+    border-radius: 20px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 64px;
+    color: darkblue;
+}
+
+h1 {
+    font-size: 96px;
+    text-align: center;
+    font-weight: 700;
+    color: darkblue;
+}
+
+p {
+    color: white;
+    background-color: beige;
+    border-radius: 10px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 64px;
+}
+
